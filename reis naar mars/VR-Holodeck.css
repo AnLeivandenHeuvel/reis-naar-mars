@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(to top, black, orange, black);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: large;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-family: Courier, monospace;
+}
+ 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+}
+ 
+.dropdown-menu a {
+    padding: 8px 12px;
+    display: block;
+}
+ 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+ 
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+ 
+.nav-links {
+    text-align: center;
+    padding: 15px 0;
+    font-size: large;
+    font-family: Courier, monospace;
+}
+ 
+.nav-links li {
+    display: inline-block;
+    margin: 0 20px;
+}
+ 
+.nav-links a {
+    color: blueviolet;
+    text-decoration: none;
+}
+ 
+.nav-links a:hover {
+    color: #000;
+}
+
+.fotos {
+    grid-row: span 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.foto {
+    width: 100%;
+    height: 90%;
+}
+
+.foto-1 {
+    grid-column: span 2;
+}
+
+.foto-2 {
+    grid-column: span 2;
+}
+
+.tekst {
+    grid-row: span 1;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.titel {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.informatie-1 {
+    grid-column: 1/2;
+}
+
+.informatie-2 {
+    grid-column: 2/3;
+}
+
+.informatie-3 {
+    grid-column: 3/4;
+}
