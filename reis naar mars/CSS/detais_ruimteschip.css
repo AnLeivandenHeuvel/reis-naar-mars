@@ -1,7 +1,8 @@
-body {
+body{
     background-image: linear-gradient(to right, black, orange, black);
+    color: white;
 }
- 
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -55,4 +56,14 @@ body {
  
 .nav-links a:hover {
     color: #000;
+}
+.tekst{
+    position: relative;
+    top: 150px;
+    z-index: 1;
+}
+.schip{
+    position: relative;
+    top: -490px;
+    left:50%;
 }
