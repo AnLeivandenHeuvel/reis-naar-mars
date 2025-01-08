@@ -32,7 +32,6 @@ body {
  
 .dropdown:hover .dropdown-menu {
     display: block;
-    z-index: 1;
 }
  
 .navbar {
@@ -63,15 +62,17 @@ body {
 .nav-links a:hover {
     color: #000;
 }
-
-.tekst{
-    position: relative;
-    top: 150px;
-    left: 10px;
-    z-index: 1;
+.informatie{
+    position: absolute;
+    top: 10%;
 }
-.schip{
+.shuttle1{
+    position: relative;
+    top: 500px;
+    left: 55%;
+}
+.shuttle2{
     position: relative;
     top: 190px;
-    left:30px;
+    left: 25%;
 }
