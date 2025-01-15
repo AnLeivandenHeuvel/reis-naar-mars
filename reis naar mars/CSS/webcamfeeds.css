@@ -22,6 +22,7 @@ body {
     position: absolute;
     background-color: aliceblue;
     min-width: 160px;
+    z-index: 1000;
 }
  
 .dropdown-menu a {
@@ -63,52 +64,84 @@ body {
 }
 
 .webcamfeeds {
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hidden-text {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 50%;
+}
+
+.image-container:hover .hidden-text {
+    display: block;
 }
 
 #foto1 {
-    width: 532px;
-    height: 316px;
+    padding-right: 181px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto2 {
-    width: 532px;
-    height: 316px;
+    padding-left: 81px;
+    padding-bottom: 41px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto3 {
-    width: 532px;
-    height: 316px;
+    padding-bottom: 41px;
+    padding-left: 181px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto4 {
-    width: 532px;
-    height: 316px;
+    padding-right: 181px;
+    padding-bottom: 41px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto5 {
-    width: 532px;
-    height: 316px;
+    padding-left: 81px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto6 {
-    width: 532px;
-    height: 316px;
+    padding-left: 181px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto7 {
-    width: 532px;
-    height: 316px;
+    padding-right: 181px;
+    width: 502px;
+    height: 276px;
 }
 
 #foto8 {
-    width: 532px;
-    height: 316px;
+    padding-left: 81px;;
+    width: 502px;
+    height: 276px;
 }
 
 #foto9 {
-    width: 532px;
-    height: 316px;
+    padding-left: 181px;
+    width: 502px;
+    height: 276px;
 }
