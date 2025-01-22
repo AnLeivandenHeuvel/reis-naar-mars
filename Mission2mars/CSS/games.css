@@ -3,6 +3,7 @@ body {
     background-color: #000000; /* Zwarte achtergrond */
     color: #fff; /* Witte tekst als standaard */
     background-image: linear-gradient(to right, black, orange, black);
+    margin: 50px;
 }
 
 
