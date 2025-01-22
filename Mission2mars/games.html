@@ -39,5 +39,17 @@
         <li><a href="games/html5-snake-master/index.html" target="_blank">Snake</a></li>
         <li><a href="games/tower_game-master/index.html" target="_blank">Tower Stack</a></li>
       </ul>
+      <script src="javascript/service-worker.js"></script>
+      <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+                .then(function(registration) {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                })
+                .catch(function(error) {
+                    console.log('Service Worker registration failed:', error);
+                });
+        }
+    </script>    
 </body>
 </html>
