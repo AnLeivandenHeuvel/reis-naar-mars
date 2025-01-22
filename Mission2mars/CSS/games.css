@@ -76,3 +76,18 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+.container {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 17%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.game-titel {
+    text-align: center;
+}
