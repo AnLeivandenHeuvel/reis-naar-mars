@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webcamfeeds</title>
     <link rel="stylesheet" href="CSS/webcamfeeds.css">
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .hidden-text {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+
+        .image-container:hover .hidden-text {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
